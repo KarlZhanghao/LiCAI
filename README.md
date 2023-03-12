@@ -32,9 +32,9 @@ We recommend to use anaconda to install the python environment and dependencies.
 # Model and data download
 |Data   |url	|des folder |
 |:----:|:----:|:----:| 
-|pretrained models |[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7724779.svg)](https://doi.org/10.5281/zenodo.7724778)  |./Models   |
-|test examples for prediction|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7724779.svg)](https://doi.org/10.5281/zenodo.7724778)|./Data/prediction|
-|training dataset|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7724799.svg)](https://doi.org/10.5281/zenodo.7724798)|./Data/MITO|
+|pretrained models |[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7724778.svg)](https://doi.org/10.5281/zenodo.7724778)  |./Models   |
+|test examples for prediction|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7724778.svg)](https://doi.org/10.5281/zenodo.7724778)|./Data/prediction|
+|training dataset|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7724798.svg)](https://doi.org/10.5281/zenodo.7724798)|./Data/MITO|
 |illastic model|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7653696.svg)](https://doi.org/10.5281/zenodo.7653696)|./Illastic|
 
 # Demonstration of inference
