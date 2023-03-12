@@ -1,6 +1,7 @@
 ### Supplementary software for the manuscript "Fast imaging of 15 intracellular compartments and interactions by deep learning segmentation of super-resolution data". Currently, the package contains the prediction part of the code and the test dataset of two cells.
 
 `LiCAI` is a Python package containing tools for segmenting intracellular structures from the super-resolution ratiometric images.
+*This repository is still under construction*
 
 - [System Requirements](#system-requirements)
 - [Installation Guide](#installation-guide)
@@ -24,17 +25,25 @@ tifffile
 tqdm
 ```
 
-# Installation Guide:
+# Installation Guide
 
 We recommend to use anaconda to install the python environment and dependencies.The typical install time should be less than one hour. After setup the running environment, download and unzip the code. 
 
-# Demonstration
+# Model and data download
+|Data   |url	|des folder |
+|:----:|:----:|:----:| 
+|pretrained models |[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7724779.svg)](https://doi.org/10.5281/zenodo.7724778)  |./Models   |
+|test examples for prediction|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7724779.svg)](https://doi.org/10.5281/zenodo.7724778)|./Data/prediction|
+|training dataset|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7724799.svg)](https://doi.org/10.5281/zenodo.7724798)|./Data/MITO|
+|illastic model|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7653696.svg)](https://doi.org/10.5281/zenodo.7653696)|./Illastic|
+
+# Demonstration of inference
 
 To run demo notebooks:
 - cd the code directory in "conda.exe"
 - `jupyter notebook`
 - copy the url jupyter generates, it looks something like this: `http://127.0.0.1:8888/`, open the link in your browser
-- open `Prediction.ipynb` and run
+- open `Demo1_prediction.ipynb` and run
 - The datasets in the "Data" folder will be processed and the predicted masks are within the same directory
 - The prediction of a single dataset is within seconds for our GTX 2080 GPU and takes several minutes for the CPU. There are two datasets in the "Data" folder for demonstration
 
@@ -56,5 +65,6 @@ The network outputs include:
 - pred_VOLm_1: the segmented binary mask of cytosol
 - pred_VOLm_2: the segmented binary mask of extracellular space
 
-# Run your data
-The dataset for prediction can be put under the "Data" folder as a subfolder. In the subfolder, two images are required: the intensity image "fluoa.tif" and the spectrum ratio image "ratio.tif". Currently the dataset subfolder should end with "_NZ_NumberOfZSlices". More details on the data training and prediction of custom dataset will be updated upon acception of the manuscript.
+# Model training
+- `Demo2_model_training.ipynb` for model training
+- `Demo3_transfer_learning.ipynb` for model training
