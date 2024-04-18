@@ -34,6 +34,7 @@ We recommend to use anaconda to install the python environment and dependencies.
 |Data   |url	|des folder |
 |:----:|:----:|:----:| 
 |pretrained models |[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7724778.svg)](https://doi.org/10.5281/zenodo.7724778)  |./Models   |
+|foreground detection model |[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10989849.svg)](https://doi.org/10.5281/zenodo.10989849). |./Models   |
 |test examples for prediction|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7724778.svg)](https://doi.org/10.5281/zenodo.7724778)|./Data/prediction|
 |illastic model|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7653696.svg)](https://doi.org/10.5281/zenodo.7653696)|./Illastic|
 |lipid droplet training dataset|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10979607.svg)](https://doi.org/10.5281/zenodo.10979607)|./Data/LD|
